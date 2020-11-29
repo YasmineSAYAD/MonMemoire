@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.monmemoire"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.monmemoire.ChargementActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.AcceuilActivity"
+            android:label="@string/title_activity_acceuil" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.PlanActivity"
+            android:label="@string/title_activity_sommaire" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.PageDeGardeActivity"
+            android:label="@string/title_activity_page_de_garde" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.RemerciementsActivity"
+            android:label="@string/title_activity_remerciements" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.DedicacesActivity"
+            android:label="@string/title_activity_dedicaces" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.TableDesMatiereActivity"
+            android:label="@string/title_activity_table_des_matiere" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.TableDesFiguresActivity"
+            android:label="@string/title_activity_table_des_figures" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ListeDesTableauxActivity"
+            android:label="@string/title_activity_liste_des_tableaux" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ListeDesAbreviationsActivity"
+            android:label="@string/title_activity_liste_des_abreviations" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.IntroductionGeneraleActivity"
+            android:label="@string/title_activity_introduction_generale" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ChapitresActivity"
+            android:label="@string/title_activity_chapitres" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ConclusionGeneraleActivity"
+            android:label="@string/title_activity_conclusion_generale" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.BibliographieActivity"
+            android:label="@string/title_activity_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ConseilActivity"
+            android:label="@string/title_activity_annexes" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.MiseEnPageActivity"
+            android:label="@string/title_activity_mise_en_page" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.SommaireActivity"
+            android:label="@string/title_activity_sommaire" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.DefBibliographieActivity"
+            android:label="@string/title_activity_def_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.RefBibliographieActivity"
+            android:label="@string/title_activity_ref_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ConstBibliographieActivity"
+            android:label="@string/title_activity_const_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ListeRefBibliographieActivity"
+            android:label="@string/title_activity_liste_ref_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.CitationBibliographieActivity"
+            android:label="@string/title_activity_citation_bibliographie" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ArticleScientifiqueActivity"
+            android:label="@string/title_activity_article_scientifique" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.LivreActivity"
+            android:label="@string/title_activity_livre" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.TheseActivity"
+            android:label="@string/title_activity_these" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.DocElectroniqueActivity"
+            android:label="@string/title_activity_doc_electronique" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.LogicielActivity"
+            android:label="@string/title_activity_logiciel" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.ModeleActivity"
+            android:label="@string/title_activity_modele" >
+        </activity>
+        <activity
+            android:name="com.example.monmemoire.OrientationActivity"
+            android:label="@string/title_activity_orientation" >
+        </activity>
+    </application>
+
+</manifest>
